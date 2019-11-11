@@ -1,1 +1,22 @@
+#GET HELP
+man clear
+man -k shell //lists all pages related to shell
+man -k "content tracker" //returns man page for content tracker
+
+#BASIC COMMANDS
+ls -l //attributes
+   -a //hidden files
+
+mkdir -p a/b/c
+rm -rf //remove dir and contents
+
+touch file.txt 
+
+#USAGE
+netstat -l | grep docker //list docker services running on network
+du -sh /var //disk usage (summarise - gives total, human readable) of var folder and sub folders
+
+#SHELL VAR
+my_path=/home
+ls $my_path
 
